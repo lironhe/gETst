@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/itemUnselected"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+    android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.goeuro.pinke.MyTextView
+            android:id="@+id/listItemDistance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/distanceNotAvailable"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <com.goeuro.pinke.MyTextView
+            android:id="@+id/listItemCountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <com.goeuro.pinke.MyTextView
+            android:id="@+id/listItemCity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+ <color name="itemUnselected">#00000000</color>
+ <color name="itemSelected">#aD4c004c</color>
+ <color name="listViewBG">#7D4c4c4c</color>
+</resources>
